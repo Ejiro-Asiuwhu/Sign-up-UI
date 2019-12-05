@@ -3,3 +3,7 @@ function isEmail(email) {
 
     return regex.test(email);
 }
+
+const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
